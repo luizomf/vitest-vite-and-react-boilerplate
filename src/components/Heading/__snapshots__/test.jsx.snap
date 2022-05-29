@@ -1,0 +1,7 @@
+// Vitest Snapshot v1
+
+exports[`should render Heading with text Hello YouTube 1`] = `
+<h1>
+  Hello YouTube!
+</h1>
+`;

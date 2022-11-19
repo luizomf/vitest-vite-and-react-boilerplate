@@ -121,7 +121,7 @@ For tests, we're going to use `vitest` and `testing-library`.
 ### For vitest
 
 ```
-npm i -D vitest jsdom @testing-library/react @testing-library/jest-dom
+npm i -D vitest jsdom @testing-library/react @testing-library/jest-dom @vitejs/plugin-react
 ```
 
 Now, in your vite.config.js:

@@ -21,8 +21,15 @@ insert_final_newline = true
 
 ## For ESLint and Prettier
 
+#### using npm
+
 ```
 npm i eslint @babel/eslint-parser @babel/preset-env @babel/preset-react prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-storybook -D
+```
+#### using yarn
+
+```
+yarn add eslint @babel/eslint-parser @babel/preset-env @babel/preset-react prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-storybook -D
 ```
 
 Create the files `.eslintrc.js`, `.prettierrc.js` and a file called
@@ -120,8 +127,16 @@ For tests, we're going to use `vitest` and `testing-library`.
 
 ### For vitest
 
+#### using npm
+
 ```
-npm i -D vitest jsdom @testing-library/react @testing-library/jest-dom
+npm i vitest jsdom @testing-library/react @testing-library/jest-dom @vitejs/plugin-react -D
+```
+
+#### using yarn
+
+```
+yarn add vitest jsdom @testing-library/react @testing-library/jest-dom @vitejs/plugin-react -D
 ```
 
 Now, in your vite.config.js:
